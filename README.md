@@ -1,20 +1,21 @@
 # vectorise
 A Python package that implements and represents basic functionalities of Vectors.
-It is also available on [GitHub](https://github.com/)
+It is also available on [PyPI](https:pypi.org/)
 
-## Installation
+## Installation in Python
+***Note \:- Requires Python Version 3.x***
 **If there are 2 or more versions of Python installed in your system (which mostly occurs in UNIX/Linux systems) then please run any one of the commands in the BASH/ZSH Shell \:-**
 ```bash
-pip3 install searchsort
+$ pip3 install vectorise
 
-python3 -m pip install searchsort
+$ python3 -m pip install vectorise
 ```
 
 **If there is only Python 3.x installed in your system like in Windows systems then please run any one of commands in the Command Prompt \:-**
 ```cmd
-pip install searchsort
+>pip install vectorise
 
-python -m pip install searchsort
+>python -m pip install vectorise
 ```
 
 ## A Sample Implementation
