@@ -4,6 +4,7 @@ It is also available on [PyPI](https:pypi.org/)
 
 ## Installation in Python
 ***Note \:- Requires Python Version 3.x***
+
 **If there are 2 or more versions of Python installed in your system (which mostly occurs in UNIX/Linux systems) then please run any one of the commands in the BASH/ZSH Shell \:-**
 ```bash
 $ pip3 install vectorise
