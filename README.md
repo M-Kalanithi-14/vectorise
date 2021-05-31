@@ -1,6 +1,6 @@
 # vectorise
 A Python package that implements and represents basic functionalities of Vectors.
-It is also available on [PyPI](https:pypi.org/)
+It is also available on [PyPI](https://pypi.org/project/vectorise/)
 
 ## Installation in Python
 ***Note \:- Requires Python Version 3.x***
