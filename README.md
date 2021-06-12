@@ -41,9 +41,8 @@ $ python3 -m pip install vectorise
 - `<Vector object>.projectionOn(<Vector object>)` returns the projection of the self Vector over the Vector passed in.
 - `<Vector object>.projectionVectorOn(<Vector object>)` returns the projection Vector of the self Vector over the Vector passed in.
 
-***Please Note :- All the Angles Returned are in DEGREES, NOT IN RADIANS; so as to make calculations and understandability effortless.
-
-Have Fun Learning!!!***
+***Please Note :- All the Angles Returned are in DEGREES, NOT IN RADIANS; so as to make calculations and understandability effortless.***
+***Have Fun Learning!!!***
 
 ## A Sample Implementation
 ```python3
