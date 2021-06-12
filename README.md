@@ -19,6 +19,31 @@ $ python3 -m pip install vectorise
 
 >python -m pip install vectorise
 ```
+## Quick Guide
+***Please Read till the End***
+- Import the Package using `import vectorise as vr`
+- `vr.Vector` creates a vector object.
+    - By Default it creates a null vector.
+    - It is ***Mutable*** i.e after its creation the vector object can be changed by `<Vector object>.[x, y, z] = value`.
+- Direction Ratios of a Vector can be retrieved by the following methods :-
+    - `<Vector object>.x` returns the direction ratio on the X-axis unit vector **i**.
+    - `<Vector object>.y` returns the direction ratio on the Y-axis unit vector **j**.
+    - `<Vector object>.z` returns the direction ratio on the Z-axis unit vector **k**.
+    - `<Vector object>.directionRatios()` returns a **tuple** of the direction ratios of **i**, **j**, **k** respectively.
+- `<Vector object>.directionCosines()` returns a **tuple** of the direction cosines of **i**, **j**, **k** respectively.
+- `<Vector object>.directionAngles()` returns a **tuple** of the direction angles of **i**, **j**, **k** respectively.
+- `<Vector object>.magnitude()` returns the magnitude of the Vector.
+- `<Vector object>.toUnit()` converts the given Vector to unit vector and returns it.
+- **All the Arithmetic Operations**, except **Multiplication**; can be done using their usual symbols.
+- `<Vector object>.dot(<Vector object>)` returns the **Dot Product** of the given 2 Vectors, which would be a **Scalar** i.e either an **integer** or a **floating point number**.
+- `<Vector object>.cross(<Vector object>)` returns the **Cross Product** of the given 2 Vectors, which would be another instance of Vector.
+- `<Vector object>.makesAngleWith(<Vector object>)` returns the **angle** between the given 2 Vectors.
+- `<Vector object>.projectionOn(<Vector object>)` returns the projection of the self Vector over the Vector passed in.
+- `<Vector object>.projectionVectorOn(<Vector object>)` returns the projection Vector of the self Vector over the Vector passed in.
+
+***Please Note :- All the Angles Returned are in DEGREES, NOT IN RADIANS; so as to make calculations and understandability effortless.
+
+Have Fun Learning!!!***
 
 ## A Sample Implementation
 ```python3
